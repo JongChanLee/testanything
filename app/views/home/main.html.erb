@@ -1,0 +1,30 @@
+<body>
+  <div class="container">
+      <form class="form-horizontal" action="/log_in" method="POST">
+        <div class="form-group">
+          <label for="input_user_id" class="col-sm-2 control-label">ID</label>
+          <div class="col-sm-4">
+            <input name="name_user_id" type="text" class="form-control" id="input_user_id" placeholder="ID">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input_user_password" class="col-sm-2 control-label">Password</label>
+          <div class="col-sm-4">
+            <input name="name_user_password" type="password" class="form-control" id="input_user_password" placeholder="Password">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Log in</button>
+          </div>
+        </div>
+      </form>
+      <form action="/sign_in">
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Sign in</button>
+          </div>
+        </div>
+      </form>
+  </div>
+</body>
